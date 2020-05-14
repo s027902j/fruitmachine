@@ -1,0 +1,23 @@
+* {
+    background-color: green;
+}
+
+button { 
+    background-color: white;
+}
+
+div p, div, button {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+div:first-of-type p {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+div:nth-of-type(2) p {
+    margin-left: 70px;
+    margin-right: 70px;
+}
